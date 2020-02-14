@@ -2,7 +2,7 @@ package day04;
 
 import java.util.*;
 
-public class Test06 {
+public class Test06_01 {
 	/*
 		제어문 - 프로그램의 흐름을 제어하는 문장
 			종류
@@ -47,20 +47,25 @@ public class Test06 {
 		switch(code) {
 		case KOR:
 			sub = "국어";
-			break;
+			System.out.println("입력된 코드는 " + sub + " 과목 입니다.");
+//			break;
 		case ENG:
 			sub = "영어";
-			break;
+			System.out.println("입력된 코드는 " + sub + " 과목 입니다.");
+//			break;
 		case MATH:
 			sub = "수학";
-			break;
+			System.out.println("입력된 코드는 " + sub + " 과목 입니다.");
+//			break;
 		case SCI:
 			sub = "과학";
-			break;
+			System.out.println("입력된 코드는 " + sub + " 과목 입니다.");
+//			break;
 		default:
 			sub = "없는";
+			System.out.println("입력된 코드는 " + sub + " 과목 입니다.");
 		}
 		
-		System.out.println("입력된 코드는 " + sub + " 과목 입니다.");
+//		System.out.println("입력된 코드는 " + sub + " 과목 입니다.");
 	}
 }
